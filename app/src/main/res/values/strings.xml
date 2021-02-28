@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Juno Weather</string>
+
+    <!-- Bottom navigation view -->
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="settings">Settings</string>
+
+    <!-- Search -->
+    <string name="type_city">Type a city</string>
+    <string name="no_internet">Your do not have an internet connection</string>
+    <string name="empty_search">Please, fill the search input</string>
+
+    <!-- Preference screen -->
+    <string name="offline_mode">Offline mode</string>
+    <string name="offline_summary_off">The app requires a network connection to get data</string>
+    <string name="offline_summary_on">The app will use the cache data</string>
+
+    <string name="language">Language</string>
+    <string name="language_english">English (EN)</string>
+    <string name="language_english_key" translatable="false">EN</string>
+    <string name="language_portuguese">Português (PT)</string>
+    <string name="language_portuguese_key" translatable="false">PT</string>
+
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="temperature_unit_metric" translatable="false">C°</string>
+    <string name="temperature_unit_metric_key" translatable="false">metric</string>
+    <string name="temperature_unit_imperial" translatable="false">F°</string>
+    <string name="temperature_unit_imperial_key" translatable="false">imperial</string>
+
+    <string name="mode">Choose a mode</string>
+    <string name="mode_light">Light mode</string>
+    <string name="mode_light_key" translatable="false">light</string>
+    <string name="mode_dark">Dark mode</string>
+    <string name="mode_dark_key" translatable="false">dark</string>
+    <string name="mode_default">System default</string>
+    <string name="mode_default_key" translatable="false">default</string>
+</resources>

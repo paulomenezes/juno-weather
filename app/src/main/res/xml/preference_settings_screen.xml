@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:key="preference_temperature_unit"
+        android:title="@string/temperature_unit"
+        android:icon="@drawable/ic_cloud_24"
+        android:entries="@array/array_temperature_unit_entries"
+        android:entryValues="@array/array_temperature_unit_values"
+        android:defaultValue="@string/temperature_unit_metric_key"
+        app:useSimpleSummaryProvider="true" />
+    <ListPreference
+        android:key="preference_language"
+        android:title="@string/language"
+        android:icon="@drawable/ic_language_24"
+        android:entries="@array/array_language_entries"
+        android:entryValues="@array/array_language_values"
+        android:defaultValue="@string/language_english_key"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreference
+        android:key="preference_offline"
+        android:title="@string/offline_mode"
+        android:summaryOff="@string/offline_summary_off"
+        android:summaryOn="@string/offline_summary_on"
+        android:icon="@drawable/ic_wifi_24"/>
+    <ListPreference
+        android:key="preference_mode"
+        android:title="@string/mode"
+        android:icon="@drawable/ic_highlight_24"
+        android:entries="@array/array_mode_entries"
+        android:entryValues="@array/array_mode_values"
+        android:defaultValue="@string/mode_default_key"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

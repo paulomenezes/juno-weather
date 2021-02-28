@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_temperature_unit_entries">
+        <item>@string/temperature_unit_metric</item>
+        <item>@string/temperature_unit_imperial</item>
+    </string-array>
+    <string-array name="array_temperature_unit_values">
+        <item>@string/temperature_unit_metric_key</item>
+        <item>@string/temperature_unit_imperial_key</item>
+    </string-array>
+
+    <string-array name="array_language_entries">
+        <item>@string/language_english</item>
+        <item>@string/language_portuguese</item>
+    </string-array>
+    <string-array name="array_language_values">
+        <item>@string/language_english_key</item>
+        <item>@string/language_portuguese_key</item>
+    </string-array>
+
+    <string-array name="array_mode_entries">
+        <item>@string/mode_default</item>
+        <item>@string/mode_light</item>
+        <item>@string/mode_dark</item>
+    </string-array>
+    <string-array name="array_mode_values">
+        <item>@string/mode_default_key</item>
+        <item>@string/mode_light_key</item>
+        <item>@string/mode_dark_key</item>
+    </string-array>
+
+</resources>

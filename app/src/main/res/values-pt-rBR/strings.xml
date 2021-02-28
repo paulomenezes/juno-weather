@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Juno Tempo</string>
+
+    <!-- Bottom navigation view -->
+    <string name="search">Pesquisar</string>
+    <string name="favorite">Favoritos</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Search -->
+    <string name="type_city">Digite uma cidade</string>
+    <string name="no_internet">Você está sem conexão com a internet</string>
+    <string name="empty_search">Por favor, preencha o nome da cidade</string>
+
+    <!-- Preference screen -->
+    <string name="temperature_unit">Unidade de temperatura</string>
+
+    <string name="offline_mode">Modo offline</string>
+    <string name="offline_summary_off">O app precisa de conexão com internet para conseguir os dados</string>
+    <string name="offline_summary_on">The app irá usar os dados do cache</string>
+
+    <string name="language">Idioma</string>
+    <string name="language_english">English (EN)</string>
+    <string name="language_portuguese">Português (PT)</string>
+
+    <string name="mode">Escolha um modo</string>
+    <string name="mode_light">Claro</string>
+    <string name="mode_dark">Escuro</string>
+    <string name="mode_default">Padrão do sistema</string>
+</resources>
