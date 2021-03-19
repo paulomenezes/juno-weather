@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Juno Tempo</string>
+    <string name="search_hint">Digite o nome da cidade</string>
 
     <!-- Bottom navigation view -->
     <string name="search">Pesquisar</string>
@@ -11,6 +12,12 @@
     <string name="type_city">Digite uma cidade</string>
     <string name="no_internet">Você está sem conexão com a internet</string>
     <string name="empty_search">Por favor, preencha o nome da cidade</string>
+
+    <!-- List item -->
+    <string name="clouds_percent">%s%%</string>
+
+    <!-- Favorite -->
+    <string name="delete">Deletar</string>
 
     <!-- Preference screen -->
     <string name="temperature_unit">Unidade de temperatura</string>
@@ -27,4 +34,11 @@
     <string name="mode_light">Claro</string>
     <string name="mode_dark">Escuro</string>
     <string name="mode_default">Padrão do sistema</string>
+
+    <!-- Forecast -->
+    <string name="favorite_action">Favoritar</string>
+    <string name="forecast_title">Tempo em %s, %s</string>
+    <string name="unfavorite_action">Desfavoritar</string>
+    <string name="forecast_activity">Previsão</string>
+    <string name="forecast_date_format">d MMM yyyy, h:mm a</string>
 </resources>
