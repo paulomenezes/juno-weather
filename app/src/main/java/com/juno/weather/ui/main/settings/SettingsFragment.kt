@@ -11,13 +11,5 @@ class SettingsFragment : PreferenceFragmentCompat() {
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.preference_settings_screen)
-
-        sharedPreference = PreferenceManager.getDefaultSharedPreferences(context)
-
-        sharedPreference.registerOnSharedPreferenceChangeListener { sharedPreferences, key ->
-            if (key == getString(R.string.mode)) {
-                sharedPreferences.getString(getString(R.string.mode), getString(R.string.mode_default_key))
-            }
-        }
     }
 }

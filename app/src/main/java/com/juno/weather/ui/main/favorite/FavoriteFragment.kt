@@ -46,6 +46,8 @@ class FavoriteFragment : Fragment() {
 
             if (text.isNotEmpty()) {
                 loadFavorites(text.toString())
+            } else {
+                loadFavorites(null)
             }
         }
     }

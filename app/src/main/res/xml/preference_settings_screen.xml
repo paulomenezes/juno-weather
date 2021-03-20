@@ -24,12 +24,4 @@
         android:summaryOff="@string/offline_summary_off"
         android:summaryOn="@string/offline_summary_on"
         android:icon="@drawable/ic_wifi_24"/>
-    <ListPreference
-        android:key="preference_mode"
-        android:title="@string/mode"
-        android:icon="@drawable/ic_highlight_24"
-        android:entries="@array/array_mode_entries"
-        android:entryValues="@array/array_mode_values"
-        android:defaultValue="@string/mode_default_key"
-        app:useSimpleSummaryProvider="true" />
 </PreferenceScreen>

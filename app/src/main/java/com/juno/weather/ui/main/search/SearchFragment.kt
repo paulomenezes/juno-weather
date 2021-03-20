@@ -37,10 +37,14 @@ class SearchFragment : Fragment() {
     private lateinit var binding: FragmentSearchBinding
     private val preferences by lazy { Preferences(requireContext()) }
     private val adapter: SearchAdapter by lazy { SearchAdapter(requireContext()) { city ->
-        val intent = Intent(requireContext(), ForecastActivity::class.java)
-        intent.putExtra(PARAM_CITY, city)
+        val offline = preferences.getOffline()
 
-        startActivity(intent)
+        if (!offline) {
+            val intent = Intent(requireContext(), ForecastActivity::class.java)
+            intent.putExtra(PARAM_CITY, city)
+
+            startActivity(intent)
+        }
     } }
     private val keyStorage by lazy { KeyStorage(requireContext()) }
     private val weatherRequestDAO by lazy { WeatherDatabase.getInstance(requireContext()).weatherRequestDAO() }
